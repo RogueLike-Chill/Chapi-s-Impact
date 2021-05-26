@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:ea31af2452d5a8c378b0e8d83bf39f10:e74583a7371ba7569aeb4a3b7cbe0c97:b01de2380a65a14d2f39f0a965779679$
+#
+:format=40300
+:texture=STATICBOTTLE.png
+:size=256x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+HealthBarStatic_00000;1;101;160;154; 0.3;0.7207792207792207; 0;0;0;0

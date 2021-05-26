@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e19aaac7b417268b221cd37478bf9fe3:f7290404aada3b7c1d8df1841616421e:9aa6319b2f513aade9369020f6cfca3e$
+#
+:format=40300
+:texture=MASKBOTTLE.png
+:size=256x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+HealthBarMask_00000;1;105;153;150; 0.2875816993464052;0.72; 0;0;0;0
