@@ -28,11 +28,4 @@ public class TentCollision : MonoBehaviour, IVulnrable
 		return false;
 	}
 
-	//private void OnTriggerEnter(Collider other)
-	//{
-	//	if (other.CompareTag("Weapon"))
-	//	{
-	//		tentM.takeDamage(20);
-	//	}
-	//}
 }

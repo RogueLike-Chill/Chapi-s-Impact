@@ -48,7 +48,13 @@ public class BridgePositioning : MonoBehaviour
 					GameObject obj = Instantiate<GameObject>(bridge, bridgePositions[i].position, Quaternion.identity);
 					obj.GetComponent<Bridge>().direction = bridgePositions[i].gameObject.name;
 					obj.transform.parent = this.transform;
+
+					Vector3 startingPositionOffset = new Vector3(0, -3, 0);
+					obj.transform.position += startingPositionOffset;
+
 					bridges[i] = obj;
+
+					obj.GetComponent<Bridge>().initSelf();
 				}
 			}
 		}

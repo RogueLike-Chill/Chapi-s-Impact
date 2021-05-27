@@ -132,6 +132,7 @@ public class FogContainer : MonoBehaviour
                 foreach (GameObject particle in pollution)
                 {
                     Destroy(particle);
+                    yield return null;
                 }
                 pollution.Clear();
             }

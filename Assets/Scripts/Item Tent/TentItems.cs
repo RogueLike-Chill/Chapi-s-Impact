@@ -15,7 +15,7 @@ public class TentItems : MonoBehaviour
     
     public void spawnItem()
 	{
-        GameObject item = Instantiate(fileChosen);
-        item.GetComponent<Rigidbody>().AddForce(new Vector3(0, 5, -20), ForceMode.Impulse);
+        GameObject item = Instantiate(fileChosen,transform.position,Quaternion.identity);
+        item.GetComponent<Rigidbody>().AddForce(new Vector3(0, 5, -10), ForceMode.Impulse);
 	}
 }
