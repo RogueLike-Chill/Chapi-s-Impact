@@ -5,16 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Guy StartMenu.unity
     guid: 796a442764397814eaea7219cd094297
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Guy's Stage1.unity
     guid: 6c00d3708b1e4c84c83eee4e322163ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Yinon'sStage001.unity
     guid: 7c368099dd0224c74be45d4a7affe9d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Win Scene.unity
     guid: bea4448b28c56f147a5c0a6974c71d7e
+  - enabled: 1
+    path: Assets/Scenes/FullGameLoop.unity
+    guid: 12f241f8b25abea43b10d468796f4358
   m_configObjects: {}

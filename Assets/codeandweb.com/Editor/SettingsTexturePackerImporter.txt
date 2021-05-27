@@ -34,6 +34,14 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_L_Weapon.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_R.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_R_Weapon.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_B.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_B_Weapon.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_F.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_F_Weapon.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_L.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_L_Weapon.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_R.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_R_Weapon.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_B.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_B_Weapon.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_F.tpsheet
@@ -121,6 +129,15 @@ tpsheetFileNames:
 - Assets/GraphicAssets/SpriteAnimations/PowerUPS/Mushroom02.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/PowerUPS/PowerUPAura.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/BridgeTiles.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock01.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock02.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock03.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree01.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree02.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree03.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree04.tpsheet
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree05.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.tpsheet
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.tpsheet
@@ -168,6 +185,14 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_L_Weapon.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_R.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Idle_R_Weapon.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_B.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_B_Weapon.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_F.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_F_Weapon.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_L.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_L_Weapon.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_R.png
+- Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Plant_R_Weapon.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_B.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_B_Weapon.png
 - Assets/GraphicAssets/SpriteAnimations/Chapi/Chapi_Run_F.png
@@ -255,6 +280,15 @@ textureFileNames:
 - Assets/GraphicAssets/SpriteAnimations/PowerUPS/Mushroom02.png
 - Assets/GraphicAssets/SpriteAnimations/PowerUPS/PowerUPAura.png
 - Assets/GraphicAssets/SpriteAnimations/Smoke/SmokeLoop001.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/BridgeTiles.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock01.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock02.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Rock03.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree01.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree02.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree03.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree04.png
+- Assets/GraphicAssets/SpriteAnimations/StaticNature/Tree05.png
 - Assets/GraphicAssets/SpriteAnimations/Tent/TentCrush.png
 - Assets/GraphicAssets/SpriteAnimations/Tent/TentShake.png
 - Assets/GraphicAssets/SpriteAnimations/TrashEnemy/TrashFire.png
@@ -362,7 +396,24 @@ normalmapFileNames:
 - 
 - 
 - 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - Assets/GraphicAssets/SpriteAnimations/Chapi/OLD/IdleF3d_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 
