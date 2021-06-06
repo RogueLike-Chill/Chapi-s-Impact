@@ -3858,6 +3858,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7265489389581004559, guid: 496f78124dcc4b449a24af40bcff0d21,
+        type: 3}
+      propertyPath: numberOfRoomsInLevel
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7276061882726563116, guid: 496f78124dcc4b449a24af40bcff0d21,
         type: 3}
       propertyPath: m_LocalScale.x

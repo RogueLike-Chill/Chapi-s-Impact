@@ -53,6 +53,7 @@ public class RoomsManager : MonoBehaviour
 {
     [SerializeField] GameObject currentRoom;
 	[SerializeField] GameObject[] rooms;
+	[SerializeField] int numberOfRoomsInLevel;
 	GameObject[,] roomMatrix= new GameObject[5,5];
 	List<Room> roomList = new List<Room>();
 	Player player;
@@ -76,7 +77,13 @@ public class RoomsManager : MonoBehaviour
 			clearMap();
 			Vector2Int coordinates = new Vector2Int(3, 3);
 
-			for (int i = 1; i < 8; i++)
+			int endVal = numberOfRoomsInLevel;
+			if (endVal>rooms.Length)
+			{
+				endVal = rooms.Length;
+			}
+
+			for (int i = 0; i < endVal; i++)
 			{
 				float offset = 200;
 
