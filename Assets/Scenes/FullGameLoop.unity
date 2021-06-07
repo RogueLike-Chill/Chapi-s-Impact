@@ -855,6 +855,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: shakeIntensity
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696720612792371461, guid: d397bcdba1ab86144b0d6c76ee6ec037,
+        type: 3}
+      propertyPath: shakeDurationInFrames
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d397bcdba1ab86144b0d6c76ee6ec037, type: 3}
 --- !u!1 &476555995
@@ -1275,6 +1285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zOffset: 0
   yOffset: 0
+  shakeDurationInFrames: 0
+  shakeIntensity: 0
   canFollow: 0
 --- !u!114 &726012268
 MonoBehaviour:

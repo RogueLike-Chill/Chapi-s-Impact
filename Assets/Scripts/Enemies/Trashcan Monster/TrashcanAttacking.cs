@@ -21,7 +21,6 @@ public class TrashcanAttacking : MonoBehaviour
 
     void attack()
     {
-        print(gameObject.name + " is attacking");
         StartCoroutine(spawnCigaretteParticles());
     }
 

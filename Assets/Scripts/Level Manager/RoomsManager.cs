@@ -101,7 +101,6 @@ public class RoomsManager : MonoBehaviour
 					GameObject roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
 					while (roomList.Contains(roomToInstantiate.GetComponent<Room>()))
 					{
-						print("Retry");
 						roomToInstantiate = rooms[Random.Range(0, rooms.Length)];
 					}
 

@@ -27,6 +27,9 @@ public class NatureSpawnPoint : MonoBehaviour
 	GameObject naturePiece;
 	ShowSpriteInEditor spriteHandler;
 
+	Vector3 offset; //relevent becuase for some reason, there exists an offset from the editor view to the game view.
+	//this corrects is.
+
 	private void Awake()
 	{
 		spriteHandler = GetComponent<ShowSpriteInEditor>();
@@ -35,14 +38,15 @@ public class NatureSpawnPoint : MonoBehaviour
 	{
 		natureM = transform.parent.GetComponentInParent<NatureSpawner>();
 		setNaturePieceBasedOnType();
-		naturePiece = Instantiate(naturePiece, transform.position, Quaternion.identity);
+		
+		naturePiece = Instantiate(naturePiece, transform.position+offset, Quaternion.identity);
 		NaturePiece piece = naturePiece.GetComponent<NaturePiece>();
 
 
 		piece.setType(type);
 		piece.initSelf();
 		piece.setPrecent(precentage/100f);
-		piece.transform.SetParent(this.transform);
+		naturePiece.transform.SetParent(this.transform);
 
 		Destroy(GetComponent<ShowSpriteInEditor>());
 		Destroy(GetComponent<SpriteRenderer>());
@@ -84,25 +88,28 @@ public class NatureSpawnPoint : MonoBehaviour
 				case NatureType.ROCK1:
 					{
 						naturePiece = Resources.Load<GameObject>("Nature/Rock1");
-
+					offset = new Vector3(0, 2, 0);
 						break;
 					}
 
 				case NatureType.ROCK2:
 					{
 						naturePiece = Resources.Load<GameObject>("Nature/Rock2");
-						break;
+					offset = new Vector3(0, 2, 0);
+					break;
 					}
 
 				case NatureType.ROCK3:
 					{
 						naturePiece = Resources.Load<GameObject>("Nature/Rock3");
-						break;
+					offset = new Vector3(0, 2, 0);
+					break;
 					}
 				case NatureType.TREE1:
 					{
 						naturePiece = Resources.Load<GameObject>("Nature/Tree1");
-						break;
+					offset = new Vector3(0, 5, 0);
+					break;
 					}
 			}
 			

@@ -18,11 +18,11 @@ GameObject:
   - component: {fileID: 2876103171634304324}
   - component: {fileID: 8839672869497663377}
   - component: {fileID: 7453915747397556108}
-  - component: {fileID: 1453942804}
   - component: {fileID: 1453942805}
   - component: {fileID: 73700855}
   - component: {fileID: 73700856}
   - component: {fileID: 143913769}
+  - component: {fileID: -8758449810624845456}
   m_Layer: 11
   m_Name: TrashEnemy
   m_TagString: Enemy
@@ -220,19 +220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enableAnimation: 0
---- !u!65 &1453942804
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361951183966181104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.08, y: 3.31, z: 1.7}
-  m_Center: {x: 0.29, y: 0.23, z: 0}
 --- !u!114 &1453942805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,6 +290,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca41bac2eb1cdb241aa947b5a12fcf78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &-8758449810624845456
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361951183966181104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.83499986
+  m_Height: 3.0099998
+  m_Direction: 1
+  m_Center: {x: 0.25499994, y: 0.08500003, z: 0}
 --- !u!1001 &312246398
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,11 +17,10 @@ public class NaturePiece : MonoBehaviour
     
     public void initSelf()
     {
-		
         animator = GetComponent<Animator>();
 		animator.speed = 0;
 		ready = true;
-    }
+	}
 
 	internal void setPrecent(float precentage)
 	{
@@ -38,11 +37,11 @@ public class NaturePiece : MonoBehaviour
 		else
 		{
 			currentState= (float)((fixedDelta / cDelta));
-			//print("Type: " + type + "fixedDelta: " + fixedDelta + ", currentDelta: " + cDelta+", currentState: " + currentState);
             animator?.Play("Base Layer."+animationName, 0, currentState);
-
-        }
-    }
+	
+		}
+		//print(GetComponent<SpriteRenderer>().sprite.name + "\t" + transform.localScale);
+	}
 
 	internal void setType(NatureType type)
 	{
